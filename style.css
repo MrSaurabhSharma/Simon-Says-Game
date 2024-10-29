@@ -1,0 +1,73 @@
+body{
+  text-align: center;
+}
+
+/* animation{
+  animation-name: shake;
+  animation-duration: 4s;
+}
+
+@keyframes shake{
+  25%{
+    transform: translate(-10%, -10%);
+  }
+  50%{
+    transform: translate(10%, 10%);
+  }
+  75%{
+    transform: translate(-10%, 10%);
+  }
+  100%{
+    transform: translate(10%, -10%);
+  }
+} */
+
+.gradient {
+  background-image: linear-gradient(to right, rgb(210, 161, 210),rgb(107, 219, 244), rgb(207, 238, 128),rgb(244, 87, 43));
+}
+
+.btn-container {
+  height: 500px;
+  width: 500px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10%;
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.flash {
+  background-color: white;
+}
+
+.userflash {
+  background-color: greenyellow;
+}
